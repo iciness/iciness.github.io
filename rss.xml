@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[.::NewTyper::.]]></title>
+    <link>http://blog.newtyper.com/</link>
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+    <description><![CDATA[NewTyper Do Everything...]]></description>
+    <pubDate>Thu, 14 Aug 2014 05:50:42 GMT</pubDate>
+    <generator>http://zespia.tw/hexo/</generator>
+    
+    <item>
+      <title><![CDATA[第一篇]]></title>
+      <link>http://blog.newtyper.com/2014/05/16/first-post/</link>
+      <guid>http://blog.newtyper.com/2014/05/16/first-post/</guid>
+      <pubDate>Fri, 16 May 2014 04:52:05 GMT</pubDate>
+      
+      <content:encoded><![CDATA[<p>现在建站还璞归真回到静态页面，当然这也得益于各种网络服务带来的便利，以及用户端计算资源的利用。<br>折腾两天研究在github pages上搭建博客，先采用基于官方<a href="https://help.github.com/articles/using-jekyll-with-pages" target="_blank" rel="external">Jekyll</a>的<a href="http://jekyllbootstrap.com" target="_blank" rel="external">JekyllBootstrap</a>，但是由于对中文的支持问题(<a href="http://blog.wuyongkai.com/2014/04/07/jekyll-151-update/" target="_blank" rel="external">可解决</a>)，以及其他奇奇怪怪的问题最终还是放弃。<br>今天重新<strong>google</strong>绕道<strong>知乎</strong>发现<a href="http://hexo.io/" target="_blank" rel="external">hexo</a>，hexo基于nodejs由于之前研究过现成环境都有，npm简单安装就能使用，和Jekyll比hexo的劣势是需要在本地生成静态页面后再发布到github上，而Jekyll可以直接部署到github上生成静态页面的工作可以交给github来完成。<br>暂时不准备对默认的模板进行改动（<em>吐个hexo的槽默认模板的banner图241K，坑爹啊</em>）。不出意外这里会变成收集箱和经验记录的地方：-P</p>
+]]></content:encoded>
+      <comments>http://blog.newtyper.com/2014/05/16/first-post/#disqus_comments</comments>
+    </item>
+    
+  </channel>
+</rss>
